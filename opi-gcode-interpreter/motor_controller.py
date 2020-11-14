@@ -24,8 +24,8 @@ class MotorController:
 
         # These are the pins to control the L293D motor drivers for the CNC
         # in the order they are activated
-        self.control_pins = {'x': (35, 31, 37, 33)}
-                            # 'y': (20, 12, 21, 16),
+        self.control_pins = {'x': (35, 31, 37, 33),
+                             'y': (38, 32, 40, 36)}
                             # 'z': (23, 27, 17, 22)}
 
         # Tracks how many steps have been taken on each axis at any point
